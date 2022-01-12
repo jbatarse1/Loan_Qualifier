@@ -115,7 +115,17 @@ if qualifying_loans == 0:
     sys(exit)
 
     save_csv = questionary.text("Do you want to save your list of qualifying loans as a CSV file?").confirm.ask()
-    
+
+    header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate" ]
+
+    save_csv = Path("qualifying_loans.csv")
+    with open(save.csv, "w", newline = "") as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(header)
+        for qualifying_loans in qualifying_loans:
+            csv.writer.writerow(qualifying_loans)
+
+
 
 def run():
     """The main function for running the script."""
