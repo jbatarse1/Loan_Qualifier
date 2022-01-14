@@ -126,7 +126,7 @@ def save_qualifying_loans(qualifying_loans):
         csvwriter.writerow(header)
 
     for qualifying_loans in qualifying_loans:
-        csv.writer.writerow(qualifying_loans)
+        csvwriter.writerow(qualifying_loans)
 
     return qualifying_loans
 
