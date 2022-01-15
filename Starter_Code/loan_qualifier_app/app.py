@@ -7,6 +7,7 @@ Example:
     $ python app.py
 """
 import sys
+import csv
 import fire
 import questionary
 from pathlib import Path
@@ -111,24 +112,22 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
-    if qualifying_loans == 0:
-        print("")
-        sys(exit)
+    if not qualifying_loans:
+        sys.exit("Sorry, no loans available")
 
-    save_csv = questionary.text("Do you want to save your list of qualifying loans as a CSV file?").confirm.ask()
+    save_csv = questionary.confirm("Do you want to save your list of qualifying loans as a CSV file?").ask()
 
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate" ]
+    if save_csv: 
+        save_file = Path("qualifying_loans.csv")
 
-    save_csv = Path("qualifying_loans.csv")
+        with open(save_file, "w", encoding='UTF8', newline = "") as csvfile:
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(header)
 
-    with open(qualifying_loans.csv, "w", encoding='UTF8', newline = "") as csvfile:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(header)
+            for qualifying_loan in qualifying_loans:
+                csvwriter.writerow(qualifying_loan)
 
-    for qualifying_loans in qualifying_loans:
-        csvwriter.writerow(qualifying_loans)
-
-    return qualifying_loans
 
 
 def run():
@@ -151,3 +150,4 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+    
