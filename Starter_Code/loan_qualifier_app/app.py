@@ -109,8 +109,7 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+   # This is the Usability dialog for savings the CSV Files.
 
     if not qualifying_loans:
         sys.exit("Sorry, no loans available")
