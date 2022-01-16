@@ -121,16 +121,15 @@ def save_qualifying_loans(qualifying_loans):
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate" ]
 
     if save_csv: 
-        save_file = Path("qualifying_loans.csv")
-
-        with open(save_file, "w", encoding='UTF8', newline = "") as csvfile:
+        with open(output_path, "w", encoding='UTF8', newline = "") as csvfile:
             csvwriter = csv.writer(csvfile)
+            
             csvwriter.writerow(header)
-
             for qualifying_loan in qualifying_loans:
                 csvwriter.writerow(qualifying_loan)
-
-
+        print("The qualifying loans list has been saved.")
+    else:
+        print("The qualifying loans list has not been saved.")
 
 def run():
     """The main function for running the script."""
