@@ -21,7 +21,9 @@ This application is developed on the **Python** *3.7.11 version*. It incorportat
 The following PIP installation must be performed before running the program. They include:
 
 ```pip install pathlib```
+
 ```pip install fire```
+
 ```pip install questionary```
 
 
