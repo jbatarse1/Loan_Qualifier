@@ -1,0 +1,99 @@
+commit ec20189768768b7a5cc10ba9811f6a676a292037
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 19:20:40 2022 -0800
+
+    Update comments
+    
+    Added comments for users to follow logic of code.
+
+commit dde2b095be0cfc40c4c25bfff3a1cfcf0eada93a
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 18:10:00 2022 -0800
+
+    Updated Comments
+
+commit 2ec4a362ba4ac4f543cfb596fd7d7ce26ae68cd3
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 18:03:36 2022 -0800
+
+    Updated Comments
+
+commit e9e8b37f765589c8628b89d840959e70305f7aaa
+Author: John Batarse <93550651+jbatarse1@users.noreply.github.com>
+Date:   Sat Jan 15 16:46:46 2022 -0800
+
+    Update terminal.history.txt
+    
+    Reduced size of file
+
+commit 41889672e98043d79780107acd95626d06f1a804
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 16:31:54 2022 -0800
+
+    Added Print Function to save_csv
+
+commit 41cd86aac76411e8b5ab0d9632dedbf9920e2de8
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 16:20:06 2022 -0800
+
+    Create terminal.history.txt
+    
+    Terminal History 50
+
+commit f9a2b7de6bad42ece8aab9485c64a5d978e466e4
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 16:09:27 2022 -0800
+
+    Update to save_csv
+
+commit 7f9d988d53b693a0506bc019c804612fb5c2fab3
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Sat Jan 15 10:46:53 2022 -0800
+
+    Updated save_csv
+
+commit 87ec95e827196059a3ad0ef4e50da8e03bba1c66
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Thu Jan 13 18:01:43 2022 -0800
+
+    Edited Code for csvwriter
+    
+    Remove period from csvwriter
+
+commit 212c4a8be00444425252e21b2f56e2f08e119446
+Author: JohnBatarse <jbatarse@hotmail.com>
+Date:   Thu Jan 13 07:49:24 2022 -0800
+
+    Updates to Save Qualified Loans
+    
+    Complete Save function for calculated qualifying loan
+
+commit 8bead6c532c4f90eefb748e2a975caa4f6a1a527
+Author: John Batarse <jbatarse@hotmail.com>
+Date:   Wed Jan 12 12:37:56 2022 -0800
+
+    Updated app.py
+    
+    Completed the usability dialog for saving the csv file
+
+commit 0317ec7a5d3e49e02ba5be674876c6aa6ba49b8c
+Author: John Batarse <jbatarse@hotmail.com>
+Date:   Wed Jan 12 12:27:27 2022 -0800
+
+    Update app.py
+    
+    Coding to save qualifying loans to a csv file
+
+commit 6dfc6a564ec3ad19806d04a6fa1010fc2d5a7453
+Author: John Batarse <93550651+jbatarse1@users.noreply.github.com>
+Date:   Wed Jan 12 12:07:08 2022 -0800
+
+    Uploaded Starter_Code folder
+    
+    This folder contains 'app.py' and other folders and files associated with running the program using modular software development.
+
+commit 61771ed61ee54e3323ddfd6b74d2352c7b439ba4
+Author: John Batarse <93550651+jbatarse1@users.noreply.github.com>
+Date:   Wed Jan 12 12:02:45 2022 -0800
+
+    Initial commit
