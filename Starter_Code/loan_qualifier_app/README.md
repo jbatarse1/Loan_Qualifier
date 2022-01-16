@@ -40,7 +40,6 @@ This will initialize the application and prompt for location of the ```daily_rat
 Then, the User will be asked to input these 5 variables: credit score, monthly debt, monthly income, desired loan amount and value of home.
 
 After these variable inputs are entered, the application will calculate the debt-to-income and loan-to-value ratio. It will also filter the banks criteria and return the available loans that qualify.
----
 
 The image below illustrates the results:
 
@@ -53,8 +52,8 @@ In the example above, the User's inputs are: credit score = 725, monthly debt = 
 ## Contributors
 
 Contributor: John Batarse  
-Email: ([<Email>](<jbatarse@hotmail.com>))
-LinkedIn: ([<LinkedIn>](<https://www.linkedin.com/in/john-a-batarse-760a26116/>))
+Email: ([<"Email on Hotmail">](<jbatarse@hotmail.com>))
+LinkedIn: ([<"Find me on LinkedIn">](<https://www.linkedin.com/in/john-a-batarse-760a26116/>))
 
 
 ## License
