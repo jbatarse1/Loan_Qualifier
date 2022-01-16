@@ -52,8 +52,8 @@ In the example above, the User's inputs are: credit score = 725, monthly debt = 
 ## Contributors
 
 Contributor: John Batarse  
-Email: ([<"Email on Hotmail">](<jbatarse@hotmail.com>))
-LinkedIn: ([<"Find me on LinkedIn">](<https://www.linkedin.com/in/john-a-batarse-760a26116/>))
+Email: ([<Email on Hotmail>](<jbatarse@hotmail.com>))
+LinkedIn: ([<Find me on LinkedIn>](<https://www.linkedin.com/in/john-a-batarse-760a26116/>))
 
 
 ## License
