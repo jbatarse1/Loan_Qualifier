@@ -55,7 +55,7 @@ Contributor: John Batarse
 
 Email: jbatarse@hotmail.com
 
-LinkedIn: (["Find me on LinkedIn"](<https://www.linkedin.com/in/john-a-batarse-760a26116/>))
+LinkedIn: [Find me on LinkedIn](<https://www.linkedin.com/in/john-a-batarse-760a26116/>)
 
 
 ## License
