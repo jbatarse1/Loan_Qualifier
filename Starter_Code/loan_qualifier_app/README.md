@@ -1,6 +1,6 @@
-# Project Title
+# Loan Qualifier Program
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This project is to develop an application that will perform calculations to determine a User's qualificions to specific lender criteria. It incorporates modularized software design. The result of the calculations determines the numbers of lenders available that meet the User's qualifications. Lender data is provided in the '''daily_rate_sheet''' csv file. User provides specific variables as inputs. Then, the application performs the operations to calculate ratios, filter lender rates, save csv file of available lenders and print results.
 
 ---
 
