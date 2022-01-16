@@ -1,6 +1,6 @@
 # Loan Qualifier Program
 
-This project is to develop a Python application that will perform calculations to determine a User's qualificions to specific lender criteria. It incorporates modularized software design. The result of the calculations determines the numbers of lenders available that meet the User's qualifications. Lender data is provided in the '''daily_rate_sheet''' csv file. User provides specific variables as inputs. Then, the application performs the operations to calculate ratios, filter lender rates, save csv file of available lenders and print results .
+This project is to develop a Python application that will perform calculations to determine a User's qualificions to specific lender criteria. It incorporates modularized software design. The result of the calculations determines the numbers of lenders available that meet the User's qualifications. Lender data is provided in the ```daily_rate_sheet``` csv file. User provides specific variables as inputs. Then, the application performs the operations to calculate ratios, filter lender rates, save csv file of available lenders and print results .
 
 ---
 
@@ -19,11 +19,11 @@ This application is developed on the Python 3.7.11 version. It incorportates the
 ## Installation Guide
 
 The following PIP installation must be performed before running the program. They include:
-
-pip install pathlib
-pip install fire
-pip install questionary
-
+`
+    ```pip install pathlib```
+    ```pip install fire```
+    ```pip install questionary```
+`
 
 ---
 
@@ -31,7 +31,7 @@ pip install questionary
 
 To run this application, create a clone on the local desktop. Then, within the folder where program is located, enter the following in the CLI:
 
-'''python app.py'''
+```python app.py```
 
 This will initialize the application and prompt for location of the '''daily_rate_sheet'''. Enter the relative (./data/daily_rate_sheet.csv) or absolute path to this file and press enter. 
 
@@ -41,8 +41,7 @@ After these variable inputs are entered, the application will calculate the debt
 
 The image below illustrates the results:
 
-
-
+![<ScreenShot>](<Python app.py Screen Shot .png>))
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
