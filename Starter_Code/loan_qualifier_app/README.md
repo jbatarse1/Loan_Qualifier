@@ -8,7 +8,7 @@ This project is to develop a Python application that will perform calculations t
 
 This application is developed on the Python 3.7.11 version. It incorportates the following required dependancies to run. This dependancies include the following Imports:
 
-1. Sys = 
+1. Sys = To provide access to functions that interacti with this application.
 2. CSV  = To import csv file to read and write qualified loans.
 3. Pathlib = To load and save files from and to paths.
 4. Fire = To engage CLI, help page and entrypoint.
@@ -33,9 +33,9 @@ To run this application, create a clone on the local desktop. Then, within the f
 
 '''python app.py'''
 
-This will initialize the application and prompt for location of the '''daily_rate_sheet'''. Enter the relative or absolute path to this file and press enter. 
+This will initialize the application and prompt for location of the '''daily_rate_sheet'''. Enter the relative (./data/daily_rate_sheet.csv) or absolute path to this file and press enter. 
 
-Then, the User will be asked to input these variables: credit score, monthly income, monthly debt, desired loan amount and value of home.
+Then, the User will be asked to input these variables: credit score, monthly debt, monthly income, desired loan amount and value of home.
 
 After these variable inputs are entered, the application will calculate the debt-to-income and loan-to-value ratio. It will also filter the banks criteria and return available loans that qualify.
 
