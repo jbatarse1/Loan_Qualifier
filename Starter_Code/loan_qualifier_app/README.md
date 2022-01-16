@@ -1,12 +1,12 @@
-# Loan Qualifier Program
+# Loan Qualifier Calculations
 
-This project is to develop a Python application that will perform calculations to determine a User's qualificions to specific lender criteria. It incorporates modularized software design. The result of the calculations determines the numbers of lenders available that meet the User's qualifications. Lender data is provided in the ```daily_rate_sheet``` csv file. User provides specific variables as inputs. Then, the application performs the operations to calculate ratios, filter lender rates, save csv file of available lenders and print results .
+This program is to develop a Python application that will perform calculations to determine a User's qualificions to specific lenders criteria. It incorporates modularized software design. The result of the calculations determines the numbers of lenders available that meet the User's qualifications. Lenders data is provided in the ```daily_rate_sheet.csv``` file. User provide specific variables as inputs. Then, the application performs the operations to calculate ratios, filter lender rates, save csv file of available lenders and prints results .
 
 ---
 
 ## Technologies
 
-This application is developed on the Python 3.7.11 version. It incorportates the following required dependancies to run. This dependancies include the following Imports:
+This application is developed on the Python 3.7.11 version. It incorportates the following required 5 dependancies to run. These dependancies include the following Imports:
 
 1. Sys = To provide access to functions that interacti with this application.
 2. CSV  = To import csv file to read and write qualified loans.
@@ -19,11 +19,11 @@ This application is developed on the Python 3.7.11 version. It incorportates the
 ## Installation Guide
 
 The following PIP installation must be performed before running the program. They include:
-`
-    ```pip install pathlib```
-    ```pip install fire```
-    ```pip install questionary```
-`
+
+```pip install pathlib```
+```pip install fire```
+```pip install questionary```
+
 
 ---
 
@@ -33,17 +33,17 @@ To run this application, create a clone on the local desktop. Then, within the f
 
 ```python app.py```
 
-This will initialize the application and prompt for location of the '''daily_rate_sheet'''. Enter the relative (./data/daily_rate_sheet.csv) or absolute path to this file and press enter. 
+This will initialize the application and prompt for location of the ```daily_rate_sheet.csv```. Enter the relative path (./data/daily_rate_sheet.csv) or absolute path to this file and press enter. 
 
-Then, the User will be asked to input these variables: credit score, monthly debt, monthly income, desired loan amount and value of home.
+Then, the User will be asked to input these 5 variables: credit score, monthly debt, monthly income, desired loan amount and value of home.
 
-After these variable inputs are entered, the application will calculate the debt-to-income and loan-to-value ratio. It will also filter the banks criteria and return available loans that qualify.
+After these variable inputs are entered, the application will calculate the debt-to-income and loan-to-value ratio. It will also filter the banks criteria and return the available loans that qualify.
 
 The image below illustrates the results:
 
 ![<ScreenShot>](<Python app.py Screen Shot .png>))
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+In the example above, the User's inputs are: credit score = 725, monthly debt = 10000, monthly income = 50000, loan amount = 250000 and home value = 1000000. The application calculated the DTI ratio = 0.20, LTV rato = 0.25 and found 5 qualifying loans. User enters 'Y' to save file and names the file. Qualifying loans is saved as "Loans Qualified".
 
 ---
 

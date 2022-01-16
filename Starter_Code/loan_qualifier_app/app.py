@@ -124,7 +124,7 @@ def save_qualifying_loans(qualifying_loans):
         sys.exit("Sorry, no loans available")
 
     save_csv = questionary.confirm("Do you want to save your list of qualifying loans as a CSV file?").ask()
-    output_path = questionary.text("Please enter a file name to save csv or press Return not to save file.)").ask()
+    output_path = questionary.text("Please enter a file name to save csv or press Return to not save file.)").ask()
 
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate" ]
 
