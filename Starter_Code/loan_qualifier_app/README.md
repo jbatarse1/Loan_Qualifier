@@ -33,7 +33,7 @@ The following PIP installation must be performed before running the program. The
 
 To run this application, create a clone on the local desktop. Then, within the folder where program is located, enter the following in the CLI:
 
-```python app.py```
+>```python app.py```
 
 This will initialize the application and prompt for location of the ```daily_rate_sheet.csv```. Enter the relative path (```./data/daily_rate_sheet.csv```) or absolute path to this file and press enter. 
 
